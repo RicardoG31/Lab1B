@@ -54,14 +54,7 @@ def process_comments(comment, neglist, neulist, poslist):
             process_comments(comment[i].replies, neglist, neulist, poslist)
     
     return neglist, neulist, poslist
-        
-
-    
-      
-        
-   
-
-        
+  
 def main():
     comments = get_submission_comments('https://www.reddit.com/r/learnprogramming/comments/5w50g5/eli5_what_is_recursion/')
     negative_comments_list = []
