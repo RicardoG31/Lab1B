@@ -60,9 +60,8 @@ def main():
     negative_comments_list = []
     positive_comments_list = []
     neutral_comments_list = []
-    negative, neutral, positive = process_comments(comments, negative_comments_list, neutral_comments_list, positive_comments_list)
-
-
+    negative, neutral, positive = process_comments(comments, negative_comments_list, neutral_comments_list, positive_comme
+                                                   
 main()
 
 
